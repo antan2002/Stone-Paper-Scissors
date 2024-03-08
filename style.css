@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    #head{
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    height: 5rem;
+    color:azure;
+    line-height: 5rem;
+    }
+    .options{
+        display: flex;
+        justify-content:space-evenly;
+        margin-bottom: 90px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .option:hover{
+        opacity: 0.9;
+        cursor:pointer;
+        border-radius: 50%;
+        background-color: rgb(8, 8, 8);
+    }
+     img{
+        width: 200px; 
+        height: 200px; 
+        margin-right: 50px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: 20px;
+        object-fit: cover;
+    }
+      .massageContainer{
+     margin-bottom: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    #mess{
+    background-color: #000000;
+    color:white;
+    font-size: 2rem;
+    display:inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    }
+      .score{
+        text-align: center;
+        font-size: 40px;
+        font-weight:700;
+        font-style: italic;
+        font-family:Georgia, 'Times New Roman', Times, serif
+      }
+    
+    
